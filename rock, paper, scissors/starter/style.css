@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+html {
+  font-weight: 10%;
+  height: 95%;
+  max-width: 100%;
+  margin: 0 0 0 0;
+  overflow: hidden;
+}
+body {
+  font-family: 'Protest Guerrilla', sans-serif;
+  background-color: #f0f0f0;
+  display: absolute;
+  height: 100%;
+  width: 100%;
+}
+.main {
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  width: 100%;
+}
+
+.midle .message {
+  position: absolute;
+  font-size: 85px;
+  top:-25%;
+  left: 22%;
+  color: rgb(159, 7, 7);
+}
+.midle {
+  position: absolute;
+  top:7%;
+  left: 27%;
+}
+.midle .half {
+  width: 35rem;
+  color: black;
+}
+
+.midle .btn {
+  border: -20rem;
+  background-color: #eee;
+  color: #000000;
+  font-family: inherit;
+  font-size: 3rem;
+  cursor: pointer;
+  position:fixed;  
+  top: 85%;
+  left: 45%;
+}
+.btn:hover {
+  background-color: rgb(193, 13, 13);
+}
+.leftRock {
+  opacity: 0;
+  position: absolute;
+  top:25%;
+  left:3%;
+  width: 200%;
+  max-width: 300px;
+  max-height: 300px;
+  background-color: rgb(14, 12, 12);
+  border-color: black;
+}
+.leftPaper {
+  opacity: 0;
+  position: absolute;
+  top:25%;
+  left:3%;
+  width: 200%;
+  max-width: 300px;
+  max-height: 300px;
+  background-color: rgb(14, 12, 12);
+  border-color: black;
+}
+.leftScisors {
+  opacity: 0;
+  position: absolute;
+  top:25%;
+  left:3%;
+  width: 200%;
+  max-width: 300px;
+  max-height: 300px;
+  background-color: rgb(14, 12, 12);
+  border-color: black;
+}
+.rightRock {
+  opacity: 0;
+  position: absolute;
+  top: 25%;
+  right: 3%;
+  width: 200%;
+  max-width: 300px;
+  max-height: 300px;
+  background-color: rgb(14, 12, 12);
+  border-color: black;
+}
+.rightPaper {
+  opacity: 0;
+  position: absolute;
+  top: 25%;
+  right: 3%;
+  width: 200%;
+  max-width: 300px;
+  max-height: 300px;
+  background-color: rgb(14, 12, 12);
+  border-color: black;
+}
+.rightScisors {
+  opacity: 0;
+  position: absolute;
+  top: 25%;
+  right: 3%;
+  width: 200%;
+  max-width: 300px;
+  max-height: 300px;
+  background-color: rgb(14, 12, 12);
+  border-color: black;
+}
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .main {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+  }
+  
+  .midle .message {
+    position: absolute;
+    font-size: 60px;
+    top:-95%;
+    left: 4.5%;
+    width: 100%;
+    color: rgb(159, 7, 7);
+  }
+  .midle {
+    position: absolute;
+    top:34%;
+    left: 11%;
+  }
+  .midle .half {
+    width: 18rem;
+    color: black;
+  }
+  
+  .midle .btn {
+    border: -20rem;
+    background-color: #eee;
+    color: #000000;
+    font-family: inherit;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position:fixed;  
+    top: 89%;
+    left: 8%;
+  }
+  .btn:hover {
+    background-color: rgb(193, 13, 13);
+  }
+  .leftRock {
+    opacity: 0;
+    position: absolute;
+    top:13%;
+    left:30%;
+    width: 200%;
+    max-width: 150px;
+    max-height: 150px;
+    background-color: rgb(14, 12, 12);
+    border-color: black;
+  }
+  .leftPaper {
+    opacity: 0;
+    position: absolute;
+    top:13%;
+    left:30%;
+    width: 200%;
+    max-width: 150px;
+    max-height: 150px;
+    background-color: rgb(14, 12, 12);
+    border-color: black;
+  }
+  .leftScisors {
+    opacity: 0;
+    position: absolute;
+    top:13%;
+    left:30%;
+    width: 200%;
+    max-width: 150px;
+    max-height: 150px;
+    background-color: rgb(14, 12, 12);
+    border-color: black;
+  }
+  .rightRock {
+    opacity: 0;
+    position: absolute;
+    top: 75%;
+    right: 30%;
+    width: 200%;
+    max-width: 150px;
+    max-height: 150px;
+    background-color: rgb(14, 12, 12);
+    border-color: black;
+  }
+  .rightPaper {
+    opacity: 0;
+    position: absolute;
+    top: 75%;
+    right: 30%;
+    width: 200%;
+    max-width: 150px;
+    max-height: 150px;
+    background-color: rgb(14, 12, 12);
+    border-color: black;
+  }
+  .rightScisors {
+    opacity: 0;
+    position: absolute;
+    top: 75%;
+    right: 30%;
+    width: 200%;
+    max-width: 150px;
+    max-height: 150px;
+    background-color: rgb(14, 12, 12);
+    border-color: black;
+  }
+}
+
+@media only screen and  (min-width: 414px) and (max-width: 896px){
+  .main {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+  }
+  
+  .midle .message {
+    position: absolute;
+    font-size: 60px;
+    top:-78%;
+    left: 18%;
+    width: 100%;
+    color: rgb(159, 7, 7);
+  }
+  .midle {
+    position: absolute;
+    top:30%;
+    left: 2%;
+  }
+  .midle .half {
+    width: 25rem;
+    color: black;
+  }
+  
+  .midle .btn {
+    border: -20rem;
+    background-color: #eee;
+    color: #000000;
+    font-family: inherit;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position:absolute;  
+    top: 128%;
+    left: 5%;
+  }
+  .btn:hover {
+    background-color: rgb(193, 13, 13);
+  }
+  .leftRock {
+    opacity: 1;
+    position: absolute;
+    top:9%;
+    left:30%;
+    width: 200%;
+    max-width: 200px;
+    max-height: 200px;
+    background-color: rgb(14, 12, 12);
+    border-color: black;
+  }
+  .leftPaper {
+    opacity: 1;
+    position: absolute;
+    top:9%;
+    left:30%;
+    width: 200%;
+    max-width: 200px;
+    max-height: 200px;
+    background-color: rgb(14, 12, 12);
+    border-color: black;
+  }
+  .leftScisors {
+    opacity: 1;
+    position: absolute;
+    top:9%;
+    left:30%;
+    width: 200%;
+    max-width: 200px;
+    max-height: 200px;
+    background-color: rgb(14, 12, 12);
+    border-color: black;
+  }
+  .rightRock {
+    opacity: 1;
+    position: absolute;
+    top: 74%;
+    right: 25%;
+    width: 200%;
+    max-width: 200px;
+    max-height: 200px;
+    background-color: rgb(14, 12, 12);
+    border-color: black;
+  }
+  .rightPaper {
+    opacity: 1;
+    position: absolute;
+    top: 74%;
+    right: 25%;
+    width: 200%;
+    max-width: 200px;
+    max-height: 200px;
+    background-color: rgb(14, 12, 12);
+    border-color: black;
+  }
+  .rightScisors {
+    opacity: 1;
+    position: absolute;
+    top: 74%;
+    right: 25%;
+    width: 200%;
+    max-width: 200px;
+    max-height: 200px;
+    background-color: rgb(14, 12, 12);
+    border-color: black;
+  }
+}
+
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+}
